@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url(./MY-man.mp4) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.video1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.video1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+
+:root{
+    --x: 200px;
+    --y: 200px;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(300px at var(--x) var(--y), rgba(255, 252, 252, 0), rgb(14, 13, 13));
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
